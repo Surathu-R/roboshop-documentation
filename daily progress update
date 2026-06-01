@@ -72,6 +72,9 @@ Environment=DB_HOST=MySQL.ravindrasurathu.online
 // highlight-end
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
+
+[Install]
+WantedBy=multi-user.target
 ---------------------------------------------------------------
 
 
